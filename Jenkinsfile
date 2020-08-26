@@ -12,7 +12,7 @@ pipeline {
     stage('Test') {
       steps {
         input 'Are you ok to receive the hello world message?'
-        sh 'echo Hello World'
+        sh 'echo Hello World!'
       }
     }
   }
